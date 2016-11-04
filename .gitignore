@@ -13,17 +13,7 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-/vendor/bin
-/vendor/bower
-/vendor/cebe
-/vendor/composer
-/vendor/ezyang
-/vendor/fzaninotto
-/vendor/phpspec
-/vendor/swiftmailer
-/vendor/yiisoft
-/vendor/autoload.php
-
+/vendor
 # composer itself is not needed
 composer.phar
 
