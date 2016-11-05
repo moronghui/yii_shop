@@ -4,8 +4,10 @@ namespace app\modules\controllers;
 
 use app\modules\models\Category;
 use Yii;
+use app\modules\controllers\CommonController;
 
-class CategoryController extends \yii\web\Controller
+
+class CategoryController extends CommonController
 {
     public function actionLists()
     {

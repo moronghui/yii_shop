@@ -5,11 +5,11 @@ namespace app\modules\controllers;
 use yii\web\Controller;
 use app\modules\models\Admin;
 use Yii;
-
+use app\modules\controllers\CommonController;
 /**
  * Public controller for the `admin` module
  */
-class PublicController extends Controller
+class PublicController extends CommonController
 {
     /**
      * Renders the login view for the module

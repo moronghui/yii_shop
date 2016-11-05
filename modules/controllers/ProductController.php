@@ -7,8 +7,9 @@ use app\modules\models\Category;
 use Yii;
 use yii\data\Pagination;
 use crazyfd\qiniu\Qiniu;
+use app\modules\controllers\CommonController;
 
-class ProductController extends Controller
+class ProductController extends CommonController
 {
 	public function actionLists()
 	{

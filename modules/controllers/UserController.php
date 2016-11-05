@@ -8,11 +8,12 @@ use app\models\User;
 use app\models\Profile;
 use yii\data\Pagination;
 use Exception;
+use app\modules\controllers\CommonController;
 
 /**
  * User controller for the `admin` module
  */
-class UserController extends Controller
+class UserController extends CommonController
 {
     public function actionUsers()
     {
