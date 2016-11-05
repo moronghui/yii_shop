@@ -9,6 +9,7 @@ nbproject
 .project
 .settings
 /config
+config/db.php
 .gitignore
 
 # windows thumbnail cache
