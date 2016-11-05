@@ -16,7 +16,7 @@
                     <div class="container">
                     	<?php
                     		if (Yii::$app->session->hasFlash('info')) {
-                    			echo Y::$app->session->getFlash('info');
+                    			echo Yii::$app->session->getFlash('info');
                     		}
                     	?>
                     	<?php

@@ -43,4 +43,11 @@ class Product extends ActiveRecord
             [['cover'], 'required'],
         ];
     }
+    public function add($data)
+    {
+        if ($this->load($data) && $this->save()) {
+            return true;
+        }
+        return false;
+    }
 }
