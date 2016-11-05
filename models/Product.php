@@ -45,6 +45,7 @@ class Product extends ActiveRecord
     }
     public function add($data)
     {
+        $data['Product']['createtime']=time();
         if ($this->load($data) && $this->save()) {
             return true;
         }

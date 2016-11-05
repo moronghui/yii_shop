@@ -5,5 +5,6 @@ return [
     'pageSize' => [
         'manage' =>5,
         'user'=>5,
+        'product' => 10,
     ],
 ];
